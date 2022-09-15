@@ -16,5 +16,5 @@
   </template>
    ```
    ```js
-   this.$refs.onlinepreview.show(file.name, blob);
+   this.$refs.previews.show(file.name, blob);
    ```
