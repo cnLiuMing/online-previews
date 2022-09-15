@@ -12,6 +12,9 @@
   3. 使用
    ```html
    <template>
-      <Previews :blob="blob" fileName="fileName" />
+      <Previews ref="previews" />
   </template>
+   ```
+   ```js
+   this.$refs.onlinepreview.show(file.name, blob);
    ```
